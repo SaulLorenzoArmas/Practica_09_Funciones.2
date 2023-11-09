@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/MiEjecutable.dir/proyecto/src/hola.cc.o  -o MiEjecutable 

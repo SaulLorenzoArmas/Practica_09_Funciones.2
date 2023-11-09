@@ -1,0 +1,3 @@
+/home/usuario/Practica_09_Funciones.2/build/CMakeFiles/edit_cache.dir
+/home/usuario/Practica_09_Funciones.2/build/CMakeFiles/rebuild_cache.dir
+/home/usuario/Practica_09_Funciones.2/build/CMakeFiles/MiEjecutable.dir
