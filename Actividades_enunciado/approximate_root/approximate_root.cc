@@ -5,12 +5,13 @@
  * Informática Básica
  *
  * @date Oct 11 2023
- * @autor Saúl Lorenzo Armas  alu0101642468@ull.edu.es
- * @breef This program 
+ * @autor Saúl Lorenzo Armas
+ * @breef This program take as parameter a real number greater than zero number
+          and return its square root
+          with an error of ±EPSILON (where EPSILON is a sufficiently small real constant - for example, 1e-4).
  * @bugs There aren't problems in the program
  * @see https://github.com/IB-2023-2024/P09-functions2/blob/main/functions.md
  */
-
 
 #include <iostream>
 #include <cmath>
@@ -38,28 +39,19 @@ double ApproximateRoot(double number) {
         }
         // Multiplique delta por -0.5
         delta *= -0.5;
-    }   
+    }
     // Devuelva el valor root
     return root;
 }
 
-// Función para calcular la hipotenusa de un triángulo rectángulo
-double CalculateHypotenuse(double longitud1, double longitud2) {
-    // Calcular la suma de los cuadrados de los catetos
-    double sumOfSquares = longitud1 * longitud1 + longitud2 * longitud2;
-    // Calcular la raíz cuadrada aproximada usando la función implementada anteriormente
-    return ApproximateRoot(sumOfSquares);
-}
-
 int main(int argc, char* argv[]) {
     // Ejemplo de uso
-    double cateto1 = std::atoi(argv[1]); 
-    double cateto2 = std::atoi(argv[2]);
-    if (cateto1 > 0 && cateto2 > 0) {
-        double hypotenuse = CalculateHypotenuse(cateto1, cateto2);
-        std::cout << "La hipotenusa del triángulo rectángulo es: " << hypotenuse << std::endl;
+    double number = std::atoi(argv[1]);
+    if (number > 0) {
+        double result = ApproximateRoot(number);
+        std::cout << "La raíz cuadrada aproximada de " << number << " es: " << result << std::endl;
     } else {
-        std::cout << "Las longitudes de los catetos deben ser mayores que cero." << std::endl;
+        std::cout << "El número ingresado no es válido. Debe ser mayor que cero." << std::endl;
     }
     return 0;
 }
