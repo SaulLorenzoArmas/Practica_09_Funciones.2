@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/scalar_product.dir/Actividades_enunciado/producto_escalar/scalar_product.cc.o  -o scalar_product 

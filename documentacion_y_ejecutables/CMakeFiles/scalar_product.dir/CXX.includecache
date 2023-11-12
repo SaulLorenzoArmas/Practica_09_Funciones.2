@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/Practica_09_Funciones.2/Actividades_enunciado/producto_escalar/scalar_product.cc
+iostream
+-
+vector
+-
+limits
+-
+

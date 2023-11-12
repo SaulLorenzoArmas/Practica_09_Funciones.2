@@ -1,0 +1,7 @@
+/home/usuario/Practica_09_Funciones.2/documentacion_y_ejecutables/CMakeFiles/edit_cache.dir
+/home/usuario/Practica_09_Funciones.2/documentacion_y_ejecutables/CMakeFiles/programa.5.dir
+/home/usuario/Practica_09_Funciones.2/documentacion_y_ejecutables/CMakeFiles/programa.4.dir
+/home/usuario/Practica_09_Funciones.2/documentacion_y_ejecutables/CMakeFiles/programa.3.dir
+/home/usuario/Practica_09_Funciones.2/documentacion_y_ejecutables/CMakeFiles/rebuild_cache.dir
+/home/usuario/Practica_09_Funciones.2/documentacion_y_ejecutables/CMakeFiles/programa.2.dir
+/home/usuario/Practica_09_Funciones.2/documentacion_y_ejecutables/CMakeFiles/programa.1.dir
